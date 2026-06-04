@@ -1,0 +1,45 @@
+{
+  "name": "raggio-atlas",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "latest",
+    "class-variance-authority": "latest",
+    "clsx": "latest",
+    "framer-motion": "latest",
+    "fuse.js": "latest",
+    "lucide-react": "latest",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "latest",
+    "tailwind-merge": "latest",
+    "tailwindcss-animate": "latest"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "postcss": "latest",
+    "tailwindcss": "^3.4.17",
+    "typescript": "latest",
+    "typescript-eslint": "latest",
+    "vite": "latest"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
